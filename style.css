@@ -111,7 +111,7 @@ header .wrapper .search-bar a {
 /* =============== MAIN =============== */
 
 #main {
-width: 100%;
+  width: 100%;
   background: var(--purple-bg);
   padding-top: 10.6rem;
 }
@@ -119,6 +119,7 @@ width: 100%;
 #main .wrapper {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 3rem;
 
   padding-bottom: 6.4rem;
@@ -155,8 +156,9 @@ width: 100%;
 }
 
 #main .wrapper img {
-  width: 57rem;
-  height: 34.6rem;
+  width: 39.55%;
+  max-width: 57rem;
+  max-height: 34.6rem;
 }
 
 /* =============== BIG-ARTICLES =============== */
@@ -167,6 +169,7 @@ width: 100%;
 
 #big-articles .wrapper {
   display: flex;
+  justify-content: center;
   gap: 13rem;
 }
 
@@ -175,12 +178,14 @@ width: 100%;
   flex-direction: column;
   gap: 1.6rem;
 
+  width: 39.5vw;
   max-width: 56.9rem;
 }
 
 #big-articles .wrapper .article img {
-  width: 56.9rem;
-  height: 34.2rem;
+  width: 39.5vw;
+  max-width: 56.9rem;
+  max-height: 34.2rem;
 }
 
 .article .article-date {
@@ -207,13 +212,19 @@ width: 100%;
   margin-bottom: 4.8rem;
 }
 
+#big-articles .wrapper .articles-aside .article {
+  width: 32.75vw;
+  max-width: 47.2rem;
+}
+
 /* =============== MINI-ARTICLES =============== */
 
 #mini-articles .wrapper {
-    margin-bottom: 6.4rem;
+  margin-bottom: 6.4rem;
+  margin-inline: auto;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 3rem;
 }
 
@@ -222,48 +233,51 @@ width: 100%;
   flex-direction: column;
   gap: 0.8rem;
 
+  width: 25.7vw;
   max-width: 37rem;
 }
 
 #mini-articles .wrapper .article img {
-  width: 37rem;
-  height: 26rem;
+  width: 25.7vw;
+  max-width: 37rem;
+  max-height: 26rem;
+
   margin-bottom: 0.8rem;
 }
 
 /* =============== FOOTER =============== */
 
 footer {
-    width: 100%;
-    padding-block: 6rem;
+  width: 100%;
+  padding-block: 6rem;
 
-    background: var(--purple-bg);
+  background: var(--purple-bg);
 }
 
 footer .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 footer .wrapper .texts .logo {
-    display: inline-block;
-    margin-bottom: 2.4rem;
+  display: inline-block;
+  margin-bottom: 2.4rem;
 }
 
 footer .wrapper .texts p {
-    font-family: var(--roboto);
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    color: var(--light-purple);
+  font-family: var(--roboto);
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--light-purple);
 }
 
 footer .wrapper .texts p:nth-child(2) {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 footer .wrapper ul {
-    display: flex;
-    align-items: center;
-    gap: 3.2rem;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
 }
