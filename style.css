@@ -44,7 +44,6 @@ body {
 .wrapper {
   width: 80%;
   margin: auto;
-  padding-inline: 0;
 }
 
 li {
@@ -112,6 +111,7 @@ header .wrapper .search-bar a {
 /* =============== MAIN =============== */
 
 #main {
+width: 100%;
   background: var(--purple-bg);
   padding-top: 10.6rem;
 }
@@ -150,6 +150,8 @@ header .wrapper .search-bar a {
   font-weight: 700;
   font-size: 1.8rem;
   line-height: 2.7rem;
+
+  color: var(--button-bg);
 }
 
 #main .wrapper img {
@@ -208,6 +210,8 @@ header .wrapper .search-bar a {
 /* =============== MINI-ARTICLES =============== */
 
 #mini-articles .wrapper {
+    margin-bottom: 6.4rem;
+
   display: flex;
   justify-content: space-between;
   gap: 3rem;
@@ -225,4 +229,41 @@ header .wrapper .search-bar a {
   width: 37rem;
   height: 26rem;
   margin-bottom: 0.8rem;
+}
+
+/* =============== FOOTER =============== */
+
+footer {
+    width: 100%;
+    padding-block: 6rem;
+
+    background: var(--purple-bg);
+}
+
+footer .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .wrapper .texts .logo {
+    display: inline-block;
+    margin-bottom: 2.4rem;
+}
+
+footer .wrapper .texts p {
+    font-family: var(--roboto);
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--light-purple);
+}
+
+footer .wrapper .texts p:nth-child(2) {
+    margin-bottom: 1.5rem;
+}
+
+footer .wrapper ul {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
 }
