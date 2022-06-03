@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="navigation">
         <div class="wrapper">
             <a id="logo" href="#">
                 <svg width="162" height="37" viewBox="0 0 162 37" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -20,43 +20,59 @@
                     <path d="M107.458 0V26.64H101.302V0H107.458Z" fill="white"/>
                     <path d="M121.064 26.928C119.096 26.928 117.32 26.508 115.736 25.668C114.176 24.828 112.94 23.628 112.028 22.068C111.14 20.508 110.696 18.684 110.696 16.596C110.696 14.532 111.152 12.72 112.064 11.16C112.976 9.576 114.224 8.364 115.808 7.524C117.392 6.684 119.168 6.264 121.136 6.264C123.104 6.264 124.88 6.684 126.464 7.524C128.048 8.364 129.296 9.576 130.208 11.16C131.12 12.72 131.576 14.532 131.576 16.596C131.576 18.66 131.108 20.484 130.172 22.068C129.26 23.628 128 24.828 126.392 25.668C124.808 26.508 123.032 26.928 121.064 26.928ZM121.064 21.6C122.24 21.6 123.236 21.168 124.052 20.304C124.892 19.44 125.312 18.204 125.312 16.596C125.312 14.988 124.904 13.752 124.088 12.888C123.296 12.024 122.312 11.592 121.136 11.592C119.936 11.592 118.94 12.024 118.148 12.888C117.356 13.728 116.96 14.964 116.96 16.596C116.96 18.204 117.344 19.44 118.112 20.304C118.904 21.168 119.888 21.6 121.064 21.6Z" fill="white"/>
                     <path d="M142.473 6.264C143.889 6.264 145.125 6.552 146.181 7.128C147.261 7.704 148.089 8.46 148.665 9.396V6.552H154.821V26.604C154.821 28.452 154.449 30.12 153.705 31.608C152.985 33.12 151.869 34.32 150.357 35.208C148.869 36.096 147.009 36.54 144.777 36.54C141.801 36.54 139.389 35.832 137.541 34.416C135.693 33.024 134.637 31.128 134.373 28.728H140.457C140.649 29.496 141.105 30.096 141.825 30.528C142.545 30.984 143.433 31.212 144.489 31.212C145.761 31.212 146.769 30.84 147.513 30.096C148.281 29.376 148.665 28.212 148.665 26.604V23.76C148.065 24.696 147.237 25.464 146.181 26.064C145.125 26.64 143.889 26.928 142.473 26.928C140.817 26.928 139.317 26.508 137.973 25.668C136.629 24.804 135.561 23.592 134.769 22.032C134.001 20.448 133.617 18.624 133.617 16.56C133.617 14.496 134.001 12.684 134.769 11.124C135.561 9.564 136.629 8.364 137.973 7.524C139.317 6.684 140.817 6.264 142.473 6.264ZM148.665 16.596C148.665 15.06 148.233 13.848 147.369 12.96C146.529 12.072 145.497 11.628 144.273 11.628C143.049 11.628 142.005 12.072 141.141 12.96C140.301 13.824 139.881 15.024 139.881 16.56C139.881 18.096 140.301 19.32 141.141 20.232C142.005 21.12 143.049 21.564 144.273 21.564C145.497 21.564 146.529 21.12 147.369 20.232C148.233 19.344 148.665 18.132 148.665 16.596Z" fill="white"/>
-                    </svg>
-                    
+                </svg> 
             </a>
 
-            <ul>
-                <a href="#">
-                    <li>
-                        Home
-                    </li>
-                </a>
-                <a href="#">
-                    <li>
-                        Sobre
-                    </li>
-                </a>
-                <a href="#">
-                    <li>
-                        Categorias
-                    </li>
-                </a>
-                <a href="#">
-                    <li>
-                        Contato
-                    </li>
-                </a>
-            </ul>
+            <div class="menu"> 
+                <ul>
+                    <a href="#">
+                        <li>
+                            Home
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            Sobre
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            Categorias
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            Contato
+                        </li>
+                    </a>
+                </ul>
 
-            <div class="search-bar">
-                <input type="search" placeholder="Buscar" name="searchQuery" id="">
+                <div class="search-bar">
+                    <input type="search" placeholder="Buscar" name="searchQuery" id="">
 
-                <a href="#">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#F2E7FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M21 21L16.65 16.65" stroke="#F2E7FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>        
-                </a>
-            </div>
+                    <a href="#">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="#F2E7FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 21L16.65 16.65" stroke="#F2E7FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>        
+                    </a>
+                </div>
+            </div>  
+            
+            <button onclick="openMenu()" id="open-menu">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 20H30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10 12H30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18 28L30 28" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+            </button>
+
+            <button onclick="closeMenu()" id="close-menu">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 10L10 30M10 10L30 30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+            </button>
         </div>
     </header>
 
@@ -98,8 +114,6 @@
                         <p class="article-resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique.</p>
                     </div>
 
-                    <hr>
-
                     <div class="article">
                         <p class="article-date">Janeiro 04, 2022</p>
                         <h2 class="article-title">Veja a evolução do Front-end na prática</h2>
@@ -113,23 +127,29 @@
             <div class="wrapper">
                 <div class="article">
                     <img src="./assets/homem-mexendo-em-macbook-em-evento-de-computadores.png" alt="">
-                    <p class="article-date">Janeiro 04, 2022</p>
-                    <h2 class="article-title">10 dicas para conseguir a vaga desejada</h2>
-                    <p class="article-resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique. </p>
+                    <div class="texts">
+                        <p class="article-date">Janeiro 04, 2022</p>
+                        <h2 class="article-title">10 dicas para conseguir a vaga desejada</h2>
+                        <p class="article-resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique. </p>
+                    </div>
                 </div>
 
                 <div class="article">
                     <img src="./assets/tela-com-codigo-html.png" alt="">
-                    <p class="article-date">Janeiro 04, 2022</p>
-                    <h2 class="article-title">Deixe seu código mais semântico com essas dicas</h2>
-                    <p class="article-resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique. </p>
+                    <div class="texts">
+                        <p class="article-date">Janeiro 04, 2022</p>
+                        <h2 class="article-title">Deixe seu código mais semântico com essas dicas</h2>
+                        <p class="article-resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique. </p>
+                    </div>
                 </div>
 
                 <div class="article">
                     <img src="./assets/mao-segurando-celular-android.png" alt="">
+                    <div class="texts">
                     <p class="article-date">Janeiro 04, 2022</p>
                     <h2 class="article-title">Use essas dicas nas suas aplicações mobile</h2>
                     <p class="article-resume">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique. </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -185,5 +205,15 @@
             </ul>
         </div>
     </footer>
+
+    <a id="backToTopButton" href="#">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="20" fill="#00856F"/>
+        <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        </a>
+
+    <script src="./main.js"></script>
 </body>
 </html>
