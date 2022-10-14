@@ -19,7 +19,7 @@ View the site online: https://xandekoch.github.io/the-blog/
 
 ![App Screenshot](./assets/full-size-screenshot.png)
 
-## Documentação de cores
+## Color Documentation
 
 | Cor               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
@@ -37,7 +37,7 @@ View the site online: https://xandekoch.github.io/the-blog/
 - Create the sectors: about, categories and contact.
 
 
-## Referência
+## References
 
  - [Rocketseat Figma Project](https://efficient-sloth-d85.notion.site/Desafio-RocketBlog-807e38809814423e80469b080444db5e)
 
