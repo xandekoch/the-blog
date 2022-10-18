@@ -19,16 +19,6 @@ View the site online: https://xandekoch.github.io/the-blog/
 
 ![App Screenshot](./assets/full-size-screenshot.png)
 
-## Color Documentation
-
-| Cor               | Hexadecimal                                                |
-| ----------------- | ---------------------------------------------------------------- |
-| purple-bg         | ![#290742](https://via.placeholder.com/10/290742?text=+) #290742 |
-| dark-bg           | ![#170027](https://via.placeholder.com/10/170027?text=+) #170027 |
-| button-bg         | ![#9e6dc2](https://via.placeholder.com/10/9e6dc2?text=+) #9e6dc2 |
-| light-purple      | ![#fbf6ff](https://via.placeholder.com/10/fbf6ff?text=+) #fbf6ff |
-| green             | ![#4fff4b](https://via.placeholder.com/10/4fff4b?text=+) #4fff4b |
-
 
 ## Roadmap
 
